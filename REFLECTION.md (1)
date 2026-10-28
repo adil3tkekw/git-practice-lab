@@ -1,0 +1,23 @@
+1. Why is 'Squash and Merge' preferable over standard merge commits for small feature branches in team
+projects?
+
+  Squash and merge combines all small commits, especially wip/fix commits into a single commit applied to main, so that it doesn't clusters the history with atomic commits
+
+
+2. Describe the difference between 'Add single comment' and 'Start a review' on GitHub. Why is batching
+important?
+
+  Single comment adds a general feedback/clarification/follow up question without doing any actions like block/approve of the PR. Batching important because it saves time and makes code reviews easier and more efficient.
+
+
+3. How do Branch Protection Rules prevent accidental production breakage?
+
+
+It adds extra layers of approvals/review before the code reaches the main production branch, preventing accidents and slips of code into the main without required policy of code review
+
+
+4. When a remote conflict occurs in a PR, why is it better to merge origin/main into your feature branch
+locally rather than forcing a push?
+
+
+Because you can resolve the conflicts locally instead of forcing a push, making the possibility of accident or breaking a code much lower and with less risks
